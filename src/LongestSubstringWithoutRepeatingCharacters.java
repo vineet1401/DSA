@@ -1,8 +1,6 @@
 /**
  * Given a string s, find the length of the longest substring without duplicate characters.
  *
- *
- *
  * Example 1:
  *
  * Input: s = "abcabcbb"
@@ -24,7 +22,7 @@
 
 public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
-        int arr [] = new int [256];
+        int[] arr = new int [256];
         int l = 0;
         int r = 0;
         int max = 0;
